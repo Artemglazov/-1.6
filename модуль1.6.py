@@ -1,0 +1,15 @@
+my_dict = {'Artem':1978 , 'Olga':1989}
+print(my_dict ['Artem'])
+print(my_dict.get('Inna','Нет имени в списке'))
+my_dict.update({'Mira':2012,'Mark':2022})
+print(my_dict )
+a = my_dict .pop('Artem')
+print(my_dict )
+print(a)
+print(my_dict.items())
+me_set = {True,1,2,3,'стол'}
+print(me_set)
+print(me_set.add(7))
+print(me_set)
+print(me_set.discard('стол'))
+print(me_set)
